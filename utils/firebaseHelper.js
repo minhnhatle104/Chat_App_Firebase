@@ -15,8 +15,8 @@ export const getFirebaseApp = () => {
         messagingSenderId: "718425206441",
         appId: "1:718425206441:web:da5f9ae3e273da134003b8",
         measurementId: "G-YXL1Y03SCS"
-      };
-    
+    };
+
     // Initialize Firebase
     return initializeApp(firebaseConfig);
 }
